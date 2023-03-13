@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 15px;
+    width: 500px;
+    text-align: center;
+}
+
+#barchart {
+    height: 540px;
+    width: 500px;
+    margin-left: 380px;
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+}
+
+#bar1 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 50px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+#bar2 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 50px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#bar3 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 50px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#bardisplay1 {
+    position: absolute;
+    height: 120px;
+    width: 50px;
+    margin-top: 280px;
+}
+
+#bardisplay2 {
+    position: absolute;
+    height: 160px;
+    width: 50px;
+    margin-top: 240px;
+}
+
+#bardisplay3 {
+    position: absolute;
+    height: 320px;
+    width: 50px;
+    margin-top: 80px;
+}
+
+.bar {
+    animation-name: colorfill;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorfill {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: rgb(180, 180, 180);
+    }
+}
+
+p {
+    margin-top: 410px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.2em;
+}
